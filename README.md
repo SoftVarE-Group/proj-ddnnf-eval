@@ -1,7 +1,11 @@
 # Replication package for Efficient Slicing of Feature Models via Projected d-DNNF Compilation (ASE'24)
 
-
 ## Steps to reproduce
+
+## Build Solvers
+
+* Original d4, slicing, and arjun are provided as binaries
+* Please follow the instructions in the pd4 submodule to install required dependencies for pd4 and compile it
 
 ### Get feature models
 *Left out for anonymization, as dataset is too large for GitHub*

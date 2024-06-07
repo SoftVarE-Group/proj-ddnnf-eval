@@ -1,7 +1,7 @@
 suppress_output: false
 show_progress: false
 operation: "CO" # compiler
-output_dir: results/literature
+output_dir: results/competition
 timeout: 3600
 max_memory: 16000
 number_of_runs: 3
