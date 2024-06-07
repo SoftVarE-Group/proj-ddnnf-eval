@@ -4,7 +4,7 @@
 ## Steps to reproduce
 
 ### Get feature models
-*Left out for anonymization*
+*Left out for anonymization, as dataset is too large for GitHub*
 
 ### Copy dimacs models to this directory
 
