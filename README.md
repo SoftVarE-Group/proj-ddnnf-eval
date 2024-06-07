@@ -2,7 +2,7 @@
 
 ## Steps to reproduce
 
-## Build Solvers
+### Build Solvers
 
 * Original d4, slicing, and arjun are provided as binaries
 * Please follow the instructions in the pd4 submodule to install required dependencies for pd4 and compile it
