@@ -1,0 +1,254 @@
+suppress_output: false
+show_progress: false
+operation: "CO" # compiler
+output_dir: results/literature
+timeout: 3600
+max_memory: 16000
+number_of_runs: 3
+repeating_parameters:
+- file: input/MC2022_track3-pmc_private/mc2022_track3_000/mc2022_track3_000.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_001/mc2022_track3_001.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_002/mc2022_track3_002.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_003/mc2022_track3_003.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_004/mc2022_track3_004.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_005/mc2022_track3_005.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_006/mc2022_track3_006.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_007/mc2022_track3_007.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_008/mc2022_track3_008.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_009/mc2022_track3_009.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_010/mc2022_track3_010.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_011/mc2022_track3_011.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_012/mc2022_track3_012.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_013/mc2022_track3_013.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_014/mc2022_track3_014.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_015/mc2022_track3_015.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_016/mc2022_track3_016.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_017/mc2022_track3_017.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_018/mc2022_track3_018.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_019/mc2022_track3_019.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_020/mc2022_track3_020.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_021/mc2022_track3_021.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_022/mc2022_track3_022.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_023/mc2022_track3_023.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_024/mc2022_track3_024.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_025/mc2022_track3_025.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_026/mc2022_track3_026.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_027/mc2022_track3_027.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_028/mc2022_track3_028.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_029/mc2022_track3_029.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_030/mc2022_track3_030.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_031/mc2022_track3_031.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_032/mc2022_track3_032.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_033/mc2022_track3_033.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_034/mc2022_track3_034.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_035/mc2022_track3_035.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_036/mc2022_track3_036.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_037/mc2022_track3_037.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_038/mc2022_track3_038.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_039/mc2022_track3_039.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_040/mc2022_track3_040.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_041/mc2022_track3_041.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_042/mc2022_track3_042.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_043/mc2022_track3_043.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_044/mc2022_track3_044.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_045/mc2022_track3_045.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_046/mc2022_track3_046.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_047/mc2022_track3_047.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_048/mc2022_track3_048.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_049/mc2022_track3_049.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_050/mc2022_track3_050.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_051/mc2022_track3_051.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_052/mc2022_track3_052.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_053/mc2022_track3_053.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_054/mc2022_track3_054.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_055/mc2022_track3_055.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_056/mc2022_track3_056.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_057/mc2022_track3_057.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_058/mc2022_track3_058.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_059/mc2022_track3_059.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_060/mc2022_track3_060.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_061/mc2022_track3_061.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_062/mc2022_track3_062.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_063/mc2022_track3_063.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_064/mc2022_track3_064.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_065/mc2022_track3_065.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_066/mc2022_track3_066.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_067/mc2022_track3_067.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_068/mc2022_track3_068.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_069/mc2022_track3_069.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_070/mc2022_track3_070.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_071/mc2022_track3_071.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_072/mc2022_track3_072.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_073/mc2022_track3_073.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_074/mc2022_track3_074.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_075/mc2022_track3_075.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_076/mc2022_track3_076.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_077/mc2022_track3_077.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_078/mc2022_track3_078.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_079/mc2022_track3_079.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_080/mc2022_track3_080.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_081/mc2022_track3_081.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_082/mc2022_track3_082.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_083/mc2022_track3_083.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_084/mc2022_track3_084.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_085/mc2022_track3_085.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_086/mc2022_track3_086.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_087/mc2022_track3_087.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_088/mc2022_track3_088.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_089/mc2022_track3_089.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_090/mc2022_track3_090.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_091/mc2022_track3_091.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_092/mc2022_track3_092.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_093/mc2022_track3_093.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_094/mc2022_track3_094.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_095/mc2022_track3_095.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_096/mc2022_track3_096.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_097/mc2022_track3_097.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_098/mc2022_track3_098.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_099/mc2022_track3_099.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_100/mc2022_track3_100.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_101/mc2022_track3_101.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_102/mc2022_track3_102.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_103/mc2022_track3_103.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_104/mc2022_track3_104.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_105/mc2022_track3_105.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_106/mc2022_track3_106.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_107/mc2022_track3_107.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_108/mc2022_track3_108.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_109/mc2022_track3_109.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_110/mc2022_track3_110.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_111/mc2022_track3_111.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_112/mc2022_track3_112.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_113/mc2022_track3_113.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_114/mc2022_track3_114.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_115/mc2022_track3_115.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_116/mc2022_track3_116.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_117/mc2022_track3_117.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_118/mc2022_track3_118.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_119/mc2022_track3_119.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_120/mc2022_track3_120.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_121/mc2022_track3_121.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_122/mc2022_track3_122.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_123/mc2022_track3_123.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_124/mc2022_track3_124.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_125/mc2022_track3_125.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_126/mc2022_track3_126.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_127/mc2022_track3_127.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_128/mc2022_track3_128.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_129/mc2022_track3_129.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_130/mc2022_track3_130.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_131/mc2022_track3_131.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_132/mc2022_track3_132.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_133/mc2022_track3_133.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_134/mc2022_track3_134.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_135/mc2022_track3_135.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_136/mc2022_track3_136.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_137/mc2022_track3_137.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_138/mc2022_track3_138.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_139/mc2022_track3_139.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_140/mc2022_track3_140.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_141/mc2022_track3_141.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_142/mc2022_track3_142.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_143/mc2022_track3_143.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_144/mc2022_track3_144.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_145/mc2022_track3_145.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_146/mc2022_track3_146.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_147/mc2022_track3_147.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_148/mc2022_track3_148.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_149/mc2022_track3_149.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_150/mc2022_track3_150.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_151/mc2022_track3_151.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_152/mc2022_track3_152.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_153/mc2022_track3_153.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_154/mc2022_track3_154.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_155/mc2022_track3_155.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_156/mc2022_track3_156.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_157/mc2022_track3_157.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_158/mc2022_track3_158.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_159/mc2022_track3_159.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_160/mc2022_track3_160.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_161/mc2022_track3_161.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_162/mc2022_track3_162.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_163/mc2022_track3_163.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_164/mc2022_track3_164.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_165/mc2022_track3_165.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_166/mc2022_track3_166.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_167/mc2022_track3_167.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_168/mc2022_track3_168.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_169/mc2022_track3_169.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_170/mc2022_track3_170.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_171/mc2022_track3_171.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_172/mc2022_track3_172.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_173/mc2022_track3_173.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_174/mc2022_track3_174.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_175/mc2022_track3_175.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_176/mc2022_track3_176.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_177/mc2022_track3_177.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_178/mc2022_track3_178.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_179/mc2022_track3_179.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_180/mc2022_track3_180.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_181/mc2022_track3_181.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_182/mc2022_track3_182.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_183/mc2022_track3_183.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_184/mc2022_track3_184.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_185/mc2022_track3_185.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_186/mc2022_track3_186.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_187/mc2022_track3_187.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_188/mc2022_track3_188.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_189/mc2022_track3_189.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_190/mc2022_track3_190.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_191/mc2022_track3_191.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_192/mc2022_track3_192.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_193/mc2022_track3_193.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_194/mc2022_track3_194.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_195/mc2022_track3_195.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_196/mc2022_track3_196.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_197/mc2022_track3_197.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_198/mc2022_track3_198.dimacs
+- file: input/MC2022_track3-pmc_private/mc2022_track3_199/mc2022_track3_199.dimacs
+
+cmd_calls:
+  - name: pd4
+    commands:
+      - 'solvers/pd4/default-run.sh {file}'
+    print_parameters:
+      - file
+      - default_parameters:
+          memory: '16000'
+        parameters: []
+  - name: GPMC
+    commands:
+      - 'solvers/gpmc/gpmc -mode=2 {file}'
+    print_parameters:
+      - file
+    instances:
+      - default_parameters:
+          memory: '16000'
+        parameters: []
+  - name: arjun
+    commands:
+      - 'solvers/sharpsat-td-arjun/starexec_run_track3_conf2.sh {file}'
+    print_parameters:
+      - file
+    instances:
+      - default_parameters:
+          memory: '16000'
+        parameters: []
+    - name: d4-pmc
+    commands:
+      - 'solvers/d4/d4/bin/d4_static -i {file} -m counting'
+    print_parameters:
+      - file
+    instances:
+      - default_parameters:
+          memory: '16000'
+        parameters: []
+    - name: slice
+    commands:
+      - './solvers/slicing/slice.sh {file}'
+    print_parameters:
+      - file
+    instances:
+      - default_parameters:
+          memory: '16000'
+        parameters: []
