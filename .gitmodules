@@ -1,0 +1,3 @@
+[submodule "solvers/pd4"]
+	path = solvers/pd4
+	url = git@github.com:SundermannC/d4v2.git
